@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Diseño Responsivo Mostly Fluid</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Diseños Web Responsivos.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>¿Que son?</h2>
+                <p>El diseño responsivo es un formato de programación que permite ajustar un sitio web automáticamente al tamaño y disposición de los dispositivos de sus usuarios. Los sitios web responsive cambian para ofrecer la mejor experiencia a los visitantes desde sus teléfonos inteligentes, tabletas o computadoras de escritorio.</p>
+                <img src="https://www.efectovisual.cl/images/efectovisual/blog/cabecera-responsivo.jpg" alt="Imagen sobre diseño responsivo" width="170" height="180">
+            </section>
+
+            <p></p>
+
+            <section>
+                <h2>Características del diseño responsivo.</h2> 
+                <p>-Prefieren los formatos verticales.</p>
+                <p>-Funciona mediante la priorización de elementos.</p>
+                <p>-Implementa funcionalidades únicas</p>
+                <p>-Se basan en la interacción con el usuario</p>
+                <p>-Automatiza labores de diseño y programación</p>
+            </section>
+
+            <section>
+                <h2>Importancia del diseño responsivo</h2>
+                <p>-El diseño web responsive ayuda a los consumidores a descubrir tu sitio web</p>
+                <p>-El diseño web responsive mantiene a los compradores en tu sitio por más tiempo</p>
+                <p>-El diseño web responsive genera reconocimiento de marca positivo y confianza en los consumidores</p>
+            </section>
+
+            <section>
+                <h2>Ejemplo de Diseño Responsivo</h2>
+                <img src="https://nowecreative.com/wp-content/uploads/2012/12/responsive-design-ejemplo.jpg" alt="Imagen sobre diseño responsivo">
+            </section>
+
+        </main>
+        <footer>
+            <p>&copy; 2024 Mi Página Web</p>
+        </footer>
+    </body>
+</html>
