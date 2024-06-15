@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suma de Cuatro Números</title>
+</head>
+<body>
+
+<h2>Suma de Cuatro Números</h2>
+
+<form action="codp.php" method="post" id="sumForm">
+  <label for="num1">Número 1:</label>
+  <input type="number" id="num1" name="num1" required><br><br>
+  
+  <label for="num2">Número 2:</label>
+  <input type="number" id="num2" name="num2" required><br><br>
+  
+  <label for="num3">Número 3:</label>
+  <input type="number" id="num3" name="num3" required><br><br>
+  
+  <label for="num4">Número 4:</label>
+  <input type="number" id="num4" name="num4" required><br><br>
+  
+  <input type="submit" value="Calcular">
+</form>
+
+<div id="resultado"></div>
+
+<script>
+document.getElementById("sumForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+  var num1 = parseFloat(document.getElementById("num1").value);
+  var num2 = parseFloat(document.getElementById("num2").value);
+  var num3 = parseFloat(document.getElementById("num3").value);
+  var num4 = parseFloat(document.getElementById("num4").value);
+  var resultado = num1 + num2 + num3 + num4;
+  document.getElementById("resultado").innerHTML = "La suma de los números es: " + resultado;
+});
+</script>
+
+</body>
+</html>
